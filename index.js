@@ -16,14 +16,6 @@ let messageEl = document.getElementById("message-el")
 let cardsEl = document.getElementById("cards-el")
 let sumEl = document.getElementById("sum-el")
 
-let player = {
-    name: "Clarisa",
-    chips: 145
-}
-
-let playerEl = document.getElementById("player-el")
-playerEl.textContent = `Player Name: ${player.name}`
-
 let startGame = () => {
     alive = true
     let first = getRandomCard()

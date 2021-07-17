@@ -12,9 +12,10 @@ let blackjack = false
 let alive = false
 let sum = 0
 let message = ""
-let messageEl = document.getElementById("message-el")
-let cardsEl = document.getElementById("cards-el")
-let sumEl = document.getElementById("sum-el")
+
+const messageEl = document.getElementById("message-el")
+const cardsEl = document.getElementById("cards-el")
+const sumEl = document.getElementById("sum-el")
 
 let startGame = () => {
     alive = true
